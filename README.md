@@ -2,6 +2,11 @@
 
 This project demonstrates a Monte Carlo simulation of an attack scenario using the Cyber Kill Chain model. The scenario involves an attacker (Eve) attempting to compromise a system, a defender (Alice) trying to detect and stop the attack at various stages, and a victim (Bob) whose system is being targeted.
 
+## Motivating Article
+Fowler, S., Joiner, K., & Ma, S. (2024). Cyber Evaluation and Management Toolkit (CEMT): Face Validity of Model-Based Cybersecurity Decision Making. Systems, 12(7), 238.
+https://www.mdpi.com/2079-8954/12/7/238
+
+
 ## Cyber Kill Chain
 
 The Cyber Kill Chain is a model that describes the stages of a cyberattack. It helps in understanding the tactics, techniques, and procedures used by attackers and enables defenders to develop effective strategies to prevent, detect, and respond to attacks.
