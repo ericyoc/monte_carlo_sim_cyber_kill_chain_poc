@@ -9,6 +9,8 @@ https://www.mdpi.com/2079-8954/12/7/238
 Connecting the Dots in Cybersecurity Presentation
 https://github.com/ericyoc/monte_carlo_sim_cyber_kill_chain_poc/blob/main/Connecting%20the%20Dots%20in%20Cybersecurity%20Talk.pdf
 
+YouTube Video
+https://www.youtube.com/@dr_yocam/videos
 
 ## Cyber Kill Chain
 
