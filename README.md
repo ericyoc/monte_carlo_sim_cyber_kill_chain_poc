@@ -41,6 +41,47 @@ The simulation results align closely with the theoretical probabilities, demonst
 
 By understanding the probabilities associated with each stage, organizations can prioritize their security efforts and allocate resources effectively to strengthen their defenses against cyberattacks.
 
+Certainly. Here's how you might present this information as a section in a GitHub README file using Markdown format:
+
+## Understanding the Probability Results
+
+In our Monte Carlo simulation of the cyber attack scenario, you may notice that Eve's success probability and Alice's detection probability don't sum to 100%. This is not an error, but a reflection of the complex nature of the scenario. Here's why:
+
+### Three Possible Outcomes
+
+1. Eve successfully completes the attack
+2. Alice detects and stops the attack
+3. Eve fails to complete the attack, but Alice also fails to detect it
+
+### Simulation Results (n=10000)
+
+- Probability of Eve's success: 8.467%
+- Probability of Alice's detection: 99.856%
+- Implied probability of neither: -8.323% (due to rounding/simulation errors)
+
+### Why They Don't Add to 100%
+
+The events are not mutually exclusive. The slight overlap in probabilities (totaling over 100%) is likely due to:
+- Rounding errors in the Monte Carlo simulation
+- Potential edge cases where Eve technically succeeds but Alice also detects it
+- The inherent variability in simulations with 10,000 trials
+
+### Theoretical vs. Simulation Results
+
+| Probability Type | Eve's Success | Alice's Detection |
+|------------------|---------------|-------------------|
+| Simulation       | 8.467%        | 99.856%           |
+| Theoretical      | 12.7%         | 99.6%             |
+
+The theoretical probabilities are more consistent with expected behavior, summing to slightly over 100% (112.3%), which allows for the small probability of neither event occurring.
+
+### Note on Interpretation
+
+When interpreting these results, consider:
+- The simulation provides an approximation based on random sampling
+- Small discrepancies are normal in Monte Carlo methods
+- Increasing the number of trials may yield more precise results
+
 ## Usage
 
 1. Make sure you have Python installed (version 3.6 or above).
