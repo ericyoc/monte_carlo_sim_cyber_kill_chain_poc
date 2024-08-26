@@ -6,6 +6,9 @@ This project demonstrates a Monte Carlo simulation of an attack scenario using t
 Fowler, S., Joiner, K., & Ma, S. (2024). Cyber Evaluation and Management Toolkit (CEMT): Face Validity of Model-Based Cybersecurity Decision Making. Systems, 12(7), 238.
 https://www.mdpi.com/2079-8954/12/7/238
 
+Connecting the Dots in Cybersecurity Presentation
+https://github.com/ericyoc/monte_carlo_sim_cyber_kill_chain_poc/blob/main/Connecting%20the%20Dots%20in%20Cybersecurity%20Talk.pdf
+
 
 ## Cyber Kill Chain
 
